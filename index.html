@@ -1,190 +1,572 @@
-<!DOCTYPE html>
-<!--[if lt IE 9 ]><html class="ie ie-lt9 no-js" lang="en"><![endif]-->
-<!--[if IE 9 ]><html class="ie ie9 no-js" lang="en"><![endif]-->
-<!--[if gt IE 9 | !IE]><!-->
-<html class="no-js fixed" lang="en">
+<!-- FlatFy Theme - Andrea Galanti /-->
+<!doctype html>
+<html>
 <!--<![endif]-->
+
 <head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<meta name="description" content="">
-<meta name="keywords" content="">
-<meta name="author" content="">
-<title>Grupo BaWichi</title>
-<link rel='stylesheet' href='assets/css/bootstrap.min.css'>
-<link rel='stylesheet' href='assets/css/style.css'>
-<link rel='stylesheet' href='assets/css/color.css'>
-<link rel='stylesheet' href='assets/css/title-size.css'>
-<link rel='stylesheet' href='assets/css/custom.css'>
-<link rel="icon" href="assets/img/icono.png">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="description" content="Flatfy Free Flat and Responsive HTML5 Template ">
+    <meta name="author" content="">
+
+    <title>Grupo BA ́WICHI</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Google Web Font -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
+
+    <!-- Custom CSS-->
+    <link href="css/general.css" rel="stylesheet">
+
+    <!-- Owl-Carousel -->
+    <link href="css/custom.css" rel="stylesheet">
+    <link href="css/owl.carousel.css" rel="stylesheet">
+    <link href="css/owl.theme.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+
+    <!-- Magnific Popup core CSS file -->
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <script src="js/modernizr-2.8.3.min.js"></script>
+    <!-- Modernizr /-->
+
 </head>
-<body>
 
-  <!-- loader -->
-  <div id="site-loader">
-    <div class="loader"></div>
-  </div>
-  <!-- loader -->
+<body id="home">
 
-  <!-- site wrap -->
-  <div id="site-wrap">
-
-    <!-- backgeound -->
-    <div id="bg">
-      <div id="img"></div>
-      <div id="video"></div>
-      <div id="overlay"></div>
-      <div id="effect">
-        <img src="assets/img/bg/cloud-01.png" alt="" id="cloud1">
-        <img src="assets/img/bg/cloud-02.png" alt="" id="cloud2">
-        <img src="assets/img/bg/cloud-03.png" alt="" id="cloud3">
-        <img src="assets/img/bg/cloud-04.png" alt="" id="cloud4">
-      </div>
-      <canvas id="js-canvas"></canvas>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div id="status"></div>
     </div>
-    <!-- /background -->
 
-    <!-- site header -->
-    <header id="site-header">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-xs-12">
-            <!-- header brand -->
-              <div class="header-brand" style="margin-top:20px;">
-                <img src="assets/img/solidemx.png" alt="" style="max-width:150px;">
-              </div>
-            <!-- header brand -->
-
-            <!-- header toggle-->
-            <!-- <div class="header-toggle">
-              <div id="menu-toggle" class="toggle">
-                <i class="ion-ios-email"></i>
-              </div>
-            </div> -->
-            <!-- /header toggle -->
-          </div>
+    <!-- FullScreen -->
+    <div class="intro-header">
+        <div class="col-xs-12 text-center abcen1 center">
+            <img src="img/bawichi.png"  style="max-width:600px; margin-top:-100px;">
         </div>
-      </div>
-    </header>
-    <!-- /site header -->
-
-    <!-- subscribe -->
-    <div id="form">
-      <div id="subscribe">
-        <div class="tb-cell">
-          <p class="animation section-subtitle">Subscribe to get notified.</p>
-          <h2 class="section-title">Newsletter</h2>
-          <!-- subscribe form -->
-          <form id="form-subscribe" class="form-lg container">
-            <input type="text" name="email" class="form-control" placeholder="Email address">
-            <button type="submit">
-              <i class="ion-email"></i>
-            </button>
-          </form>
-          <!-- /subscribe form -->
+        <!-- /.container -->
+        <div class="col-xs-12 text-center abcen wow fadeIn">
+            <div class="button_down ">
+                <a class="imgcircle wow bounceInUp" data-wow-duration="1.5s" href="#quienes"> <img class="img_scroll" src="img/icon/circle.png" alt=""> </a>
+            </div>
         </div>
-      </div>
     </div>
-    <!-- /subscribe -->
 
-    <!-- site main -->
-    <main id="site-main">
-      <!-- home -->
+    <!-- NavBar-->
+    <nav class="navbar-default" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+                <a class="navbar-brand" href="#home">Flatfy</a>
+            </div>
 
-      <section id="home">
-        <div class="section-wrap">
-          <div class="section-cell">
-            <div class="container">
-              <!-- section header -->
-              <div class="section-header row text-center">
-                <div class="col-xs-12">
-                  <p class="animation section-subtitle"> ¡Especialistas  unidos por un mundo mejor!</p>
-                    <center>
-                      <img class="logo-light img-responsive" style="max-width:350px;" src="assets/img/logo-light-2.png" alt="">
-                    </center>
-                  <div class="animation section-divider"></div>
+            <div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+
+                    
+                    <li class="menuItem"><a href="#quienes">¿Quiénes Somos?</a></li>
+                    <li class="menuItem"><a href="#colaboradores">Colaboradores</a></li>
+                    <li class="menuItem"><a href="#hidro">Proyecto</a></li>
+                    <li class="menuItem"><a href="#problematica">Problemática</a></li>
+                    <li class="menuItem"><a href="#propuesta">Propuesta</a></li>
+                    <li class="menuItem"><a href="#beneficios">Beneficios</a></li>
+                    <li class="menuItem"><a href="#contact">Contacto</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- ¿Quiénes Somos? -->
+    <div id="quienes" class="content-section-a">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-sm-6 wow pull-right fadeInLeftBig" data-animation-delay="200">
+                    <h3 class="section-heading">¿Quiénes Somos?</h3>
+                    <p class="lead justify">
+                        Grupo BA ́WICHI, encabezado por el Ing. Héctor Porras Dávila, está conformado por la colaboración y la suma de esfuerzos de especialistas nacionales e internacionales cuyo objetivo es la preservación, conservación, recuperación y mejora del entorno ambiental. A raíz de las necesidades ambientales
+                        y la falta de proyectos de recuperación, Grupo Ba ́Wichi se ha dado a la tarea de fomentar la alianza estratégica que permita focalizarse en proyectos cuyo fin sea en beneficio del medio ambiente, creación de espacios de expresión
+                        cultural y educación en la responsabilidad social. La Barra Integral de Ingenieros en Ecología del Estado de Chihuahua, el Centro de Investigación, Desarrollo e Innovación Empresarial, Solide Mx e investigadores de universidades
+                        nacionales y extranjeras, lideran el Grupo Ba ́Wichi que mediante la ingeniería de proyectos, investigación tecnológica y científica, desarrollo de modelos y aplicación de tecnologías ambientales y un compromiso social, creando acciones
+                        propositivas en bien de la comunidad y de la región, sin dejar a un lado la participación ciudadana mediante análisis y foros de expresión.
+                    </p>
                 </div>
-              </div>
-              <!-- /setion header -->
 
-              <!-- section main -->
-              <div class="section-main row">
-                <div class="col-xs-12">
-                  <!-- countdown -->
-                  <div id="countdown" class="animation-04">
-                    <div class="row">
-                      <div class="col-xs-3 col-countdown">
-                        <div class="countdown-section">
-                          <div class="countdown-amount days"></div>
-                          <div class="countdown-period days_ref">Días</div>
-                        </div>
-                      </div>
-                      <div class="col-xs-3 col-countdown">
-                        <div class="countdown-section">
-                          <div class="countdown-amount hours"></div>
-                          <div class="countdown-period hours_ref">Horas</div>
-                        </div>
-                      </div>
-                      <div class="col-xs-3 col-countdown">
-                        <div class="countdown-section">
-                          <div class="countdown-amount minutes"></div>
-                          <div class="countdown-period minutes_ref">Minutos</div>
-                        </div>
-                      </div>
-                      <div class="col-xs-3 col-countdown">
-                        <div class="countdown-section">
-                          <div class="countdown-amount seconds"></div>
-                          <div class="countdown-period seconds_ref">Segundos</div>
-                        </div>
-                      </div>
+                <div
+                 class="col-sm-6  wow fadeInRightBig center" >
+
+                    <div class="col-xs-12 col-sm-6">
+                        <img src="img/bawichi.png"  style="max-width:250px; margin-top:200px;">
                     </div>
-                  </div>
-                  <!-- /countdown -->
+
+                    <div class="col-xs-12 col-sm-6" style="margin-top:100px;">
+                         <div class="col-xs-12">
+                            <button type="button" class="btn btn-lg trans" data-toggle="modal" data-target="#modal1">
+                                <img class="rotate img-ic" src="img/solide.png" >
+                            </button>
+                        </div>
+                        <div class="col-xs-12">
+                            <button type="button" class="btn btn-lg  trans" data-toggle="modal" data-target="#modal2">
+                                <img class="rotate img-ic" src="img/cidiem.png" >
+                            </button>
+                        </div>
+                        <div class="col-xs-12">
+                            <button type="button" class="btn  btn-lg trans" data-toggle="modal" data-target="#modal3">
+                                <img class="rotate img-ic" src="img/biieech.jpg" ><br>
+                                BIIEECH AC
+                            </button>
+                        </div>
+                        <div class="col-xs-12"> 
+                            <button type="button" class="btn  btn-lg trans" data-toggle="modal" data-target="#modal4">
+                                <img class="rotate img-ic" src="img/colaborador.png" ><br>
+                                Colaboradores
+                            </button>
+                        </div>
+                    </div> 
+                                       
                 </div>
+            </div>
+        </div>
+        <!-- /.container -->
+    </div>
+
+    <!-- Colaboradores -->
+    <div id="hidro" class="content-section-b" style="border-top: 0">
+        <div class="container">
+            <div class="container">
+
+            <div class="row">
+
+                <div class="col-sm-6 pull-right wow fadeInRightBig">
+                    <img class="img-responsive " src="img/hidro.jpg" alt="">
+                </div>
+
+                <div class="col-sm-6 wow fadeInLeftBig" data-animation-delay="200">
+                    <h3 class="section-heading">Proyecto CUU Hidro-Forestal  </h3>
+                    <p class="justify">
+                      El proyecto CUU- Hidro forestal tiene por objetivo Implementar un sistema de aprovechamiento
+                      de la hidrología, eficiente y sustentable para la ciudad de Chihuahua que permita aprovechar al
+                      máximo el agua pluvial anual, optimizar el riego de parques y jardines, beneficie la urbanidad de la
+                      ciudad y el control, manejo y tratamiento efectivo de aguas residuales, beneficiando
+                      económicamente al gobierno, moralmente a los ciudadanos y estéticamente a la ciudad.
+                    </p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!-- Proyecto hidro -->
+    <div id="colaboradores"class="content-section-a">
+        <div class="col-xs-12  text-center wrap_title">
+                <h2>Colaboradores</h2>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-3 wow fadeInDown text-center">
+                    <a href="http://www.solidemx.com"><img class="rotate img-ic" src="img/solide.png" alt="Generic placeholder image"></a>
+                    <h3>Solide MX</h3>
+                    <p class="lead">Empresa orgullosamente chihuahuense especializada en el desarrollo de software, aplicaciones web y móviles, así como representantes de la emergente industria, proveyendo soluciones tecnológicas adecuadas a cualquier necesidad. </p>
+                    <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
+                </div>
+                <!-- /.col-lg-4 -->
+
+                <div class="col-sm-3 wow fadeInDown text-center">
+                    <a href="http://www.cidiemglobal.com"><img class="rotate img-ic" src="img/cidiem.png" alt="Generic placeholder image"></a>
+                    <h3>CIDIEM</h3>
+                    <p class="lead">
+                        Centro especializado en el mejoramiento y crecimiento de las empresas, enfocándose en cada uno de sus aspectos, buscando el sano desarrollo, la innovación en un ambiente de responsabilidad social empresarial y mejora continua. 
+                    </p>
+                    <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
+                </div>
+                <!-- /.col-lg-4 -->
+
+                <div class="col-sm-3 wow fadeInDown text-center">
+                    <a href="https://www.facebook.com/pg/BIIEECH-AC-366771869128/about/?ref=page_internal"><img class="rotate img-ic" src="img/biieech.jpg" alt="Generic placeholder image"></a>
+                    <h3>BIIEECH AC</h3>
+                    <p class="lead">Representa a un grupo de profesionales que por su formación técnica y científica son capaces de contribuir con la sociedad a la solución, en general, a la solución de problemas medio ambientales y a la conservación de los recursos naturales.</p>
+                    <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
+                </div>
+                <!-- /.col-lg-4 -->
+                <div class="col-sm-3 wow fadeInDown text-center">
+                    <img class="rotate img-ic" src="img/colaborador.png" alt="Generic placeholder image">
+                    <h3>Consultores</h3>
+                    <p class="lead">Grupo especializado de consultores con experiencia nacional e internacional que mediante la ingeniería de proyectos, investigación tecnológica y científica, desarrollo de modelos y aplicación de tecnologías ambientales y un compromiso social.</p>
+                    <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
+                </div>
+                <!-- /.col-lg-4 -->
+
+            </div>
+            <!-- /.row -->
+    </div>
+    <!-- Estado Actual -->
+    <div id="problematica" class="content-section-b">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 wow fadeInLeftBig">
+                    <div id="owl-demo-1" class="owl-carousel">
+                        <a href="img/problema/imagen2.jpg" class="image-link">
+                            <div class="item">
+                                <img class="img-responsive img-rounded" src="img/problema/imagen2.jpg" alt="">
+                            </div>
+                        </a>
+                        <a href="img/problema/imagen3.jpg" class="image-link">
+                            <div class="item">
+                                <img class="img-responsive img-rounded" src="img/problema/imagen3.jpg" alt="">
+                            </div>
+                        </a>
+                        <a href="img/problema/imagen4.jpg" class="image-link">
+                            <div class="item">
+                                <img class="img-responsive img-rounded" src="img/problema/imagen4.jpg" alt="">
+                            </div>
+                        </a>
+                        <a href="img/problema/imagen5.jpg" class="image-link">
+                            <div class="item">
+                                <img class="img-responsive img-rounded" src="img/problema/imagen5.jpg" alt="">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 wow fadeInRightBig" data-animation-delay="200">
+                    <h3 class="section-heading">Problemática Actual</h3>
+                    <p class="lead justify">
+                      En el Municipio de Chihuahua, tenemos en la actualidad un mal aprovechamiento de los recursos
+                      naturales como son el agua y el suelo, resaltando, distribución hidrológica, la captación, e l reuso y
+                      manejo del aprovechamiento de aguas residuales, planeación de forestación y reforestación con la
+                      vegetación típica nativa, así como también el mejoramiento en la distribución de la red de agua
+                      reciclada, todo esto para, y en beneficio de la ciudad y la sociedad de Chihuahua.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Propuesta-->
+    <div id="propuesta" class="content-section-b">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 text-center wrap_title ">
+                    <h2>Propuesta</h2>
+                </div>
+            </div>
+            <div class="row wow bounceInUp">
+                <div id="owl-demo" class="owl-carousel">
+
+                    <a href="img/slide/1.jpg" class="image-link">
+                        <div class="item">
+                            <img class="img-responsive img-rounded" src="img/slide/1.jpg" alt="">
+                        </div>
+                    </a>
+                    <a href="img/slide/2.jpg" class="image-link">
+                        <div class="item">
+                            <img class="img-responsive img-rounded" src="img/slide/2.jpg" alt="">
+                        </div>
+                    </a>
+
+                    <a href="img/slide/3.jpg" class="image-link">
+                        <div class="item">
+                            <img class="img-responsive img-rounded" src="img/slide/3.jpg" alt="">
+                        </div>
+                    </a>
+                    <a href="img/slide/4.jpg" class="image-link">
+                        <div class="item">
+                            <img class="img-responsive img-rounded" src="img/slide/4.jpg" alt="">
+                        </div>
+                    </a>
+                    <a href="img/slide/5.jpg" class="image-link">
+                        <div class="item">
+                            <img class="img-responsive img-rounded" src="img/slide/5.jpg" alt="">
+                        </div>
+                    </a>
+                    <a href="img/slide/6.jpg" class="image-link">
+                        <div class="item">
+                            <img class="img-responsive img-rounded" src="img/slide/6.jpg" alt="">
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Beneficios -->
+    <div id="beneficios" class="content-section-c ">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 text-center white bounceInUp">
+                    <h2>Beneficios</h2>
+                    <p class="lead" style="margin-top:0">Para la ciudad de Chihuahua</p>
+                </div>
+                <div class="row">
+                  <div class="col-xs-12 col-sm-4 fadeInDown center">
+                    <h3 class="white">Ambiental</h3>
+                      <ul class="white left">
+                        <li>-Rehabilitación de los mantos acuíferos.</li>
+                        <li>-Reducción de la contaminación local y regional</li>
+                        <li>-Una ciudad verde con flora endémica que reduce los gases de efecto invernadero.</li>
+                        <li>-Reducción de la temperatura de la ciudad hasta en 2 grados centígrados en verano.</li>
+                        <li>-Reducir la superficie de cemento en banquetas, parques y camellones tiene varios beneficios.</li>
+                      </ul>
+
+                  </div>
+                  <div class="col-xs-12 col-sm-4 fadeInDown center">
+                    <h3 class="white">Económico</h3>
+                    <ul class="white left">
+                      <li>-Recuperación de la zona centro como área habitacional y de comercio al margen del río.</li>
+                      <li>-Convertir la rivera del río Chuviscar en la zona de mayor plusvalía de la ciudad.</li>
+                      <li>-Empleo de métodos modernos de riego y la eliminación de riego por pipas.</li>
+                      <li>-Afluencia turística, el centro de la ciudad se fortalece como atractivo turístico.</li>
+                      <li>-Reducción de la demografía vehicular.</li>
+                      <li>-Potencializar el uso de transporte público y aumentar el transporte peatonal y en bicicleta.</li>
+                      <li>-Promoción de Chihuahua como una ciudad de vanguardia y excelente opción para inversión extranjera directa.</li>
+                      <li>-Reducción de costos de mantenimiento en parques.</li>
+                    </ul>
+                  </div>
+                  <div class="col-xs-12 col-sm-4 fadeInDown center">
+                    <h3 class="white">Social</h3>
+                      <ul class="white left">
+                        <li>-Mejorar condiciones de agua para la ciudad.</li>
+                        <li>-La zona sur se beneficia con agua para riego y no se sacrifica su agua potable.</li>
+                        <li>-Se reduce el nivel de estrés de los habitantes.</li>
+                        <li>-Mejoran las condiciones de vida.</li>
+                        <li>-Mejora la salud de los habitantes y promueve el deporte.</li>
+                        <li>-Mejor calidad de agua.</li>
+                        <li>-Ambiente de progreso y satisfacción que beneficia a la productividad.</li>
+                        <li>-Recuperación de espacios de esparcimiento, parques, camellones y banquetas.</li>
+                        <li>-Reducción de la inseguridad a consecuencia de mas áreas verdes para recreación.</li>
+                        <li>-Sentido de bienestar social.</li>
+                      </ul>
+                  </div>
+
+                </div>
+            </div>>
+        </div>
+    </div>
+
+    <!-- Credits -->
+    <div id="credits" class="content-section-a">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 text-center wrap_title">
+                    <h2>¡Construyendo un mejor mañana!</h2>
+                </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12 col-sm-4">
+                    <img class="img-responsive img-rounded" src="img/mañana/imagen1.jpg">
               </div>
-              <!-- /setion main -->
+              <div class="col-xs-12 col-sm-4">
+                    <img class="img-responsive img-rounded" src="img/mañana/imagen2.jpg">
+              </div>
+              <div class="col-xs-12 col-sm-4">
+                    <img class="img-responsive img-rounded" src="img/mañana/imagen3.jpg">
+              </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Banner Download -->
+
+    <!-- Contact -->
+    <div id="contact" class="content-section-a">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-6 col-md-offset-3 text-center wrap_title">
+                    <h2>¡Contáctanos!</h2>
+                    <p class="lead" style="margin-top:0">Te responderemos tan pronto como nos sea posible</p>
+                </div>
+
+                <form role="form" action="" method="post">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="InputName">Tu Nombre</label>
+                            <div class="input-group">
+                                <input type="text" class="form-control" name="InputName" id="InputName" placeholder="Ingresa tu nombre" required>
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="InputEmail">Tu Correo Electrónico</label>
+                            <div class="input-group">
+                                <input type="email" class="form-control" id="InputEmail" name="InputEmail" placeholder="Ingresa tu correo electrónico" required>
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="InputMessage">Mensaje</label>
+                            <div class="input-group">
+                                <textarea name="InputMessage" id="InputMessage" class="form-control" rows="5" required></textarea>
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
+                            </div>
+                        </div>
+
+                        <input type="submit" name="submit" id="submit" value="Enviar" class="btn wow tada btn-embossed btn-primary pull-right">
+                    </div>
+                </form>
+
+                <hr class="featurette-divider hidden-lg">
+                <div class="col-md-5 col-md-push-1 address">
+                    <address>
+					<h3>Ubicación</h3>
+					<p>Av. Homero 3714, Fraccionamiento El Vergel <br>
+					C.P. 31140, Chihuahua, Chihuahua, México.</p>
+					Cel : 614112-75-76 Tel : 484-64-22 <br>
+					</address>
+
+                    <h3>Social</h3>
+                    <li class="social">
+                        <a href="https://www.facebook.com/profile.php?id=100014791363081&ref=ts&fref=ts"><i class="fa fa-facebook-square fa-size"> </i></a>
+                        <a href="#"><i class="fa  fa-twitter-square fa-size"> </i> </a>
+                        <a href="#"><i class="fa fa-google-plus-square fa-size"> </i></a>
+                    </li>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!-- Modal -->
+      <div class="modal fade" id="modal1" role="dialog">
+        <div class="modal-dialog">
+        
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">Solide MX.</h4>
+            </div>
+            <div class="modal-body">
+              <p>
+                Ing. Alejandro Chaires Hinojos <br>
+                Ing. Samuel Herrera Rodríguez 
+             </p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
             </div>
           </div>
+          
         </div>
-      </section>
-      <!-- /home -->
-
-    </main>
-    <!-- /site main -->
-
-    <!-- site footer -->
-    <footer id="site-footer">
-      <!-- footer social -->
-        <div id="footer-social">
-          <a href="https://www.facebook.com/pg/Grupo-Bawichi-354564541566927/about/" title="" target="_blank"><i class="ion-social-twitter"></i></a>
-          <a href="#" title="" target="_blank"><i class="ion-social-googleplus"></i></a>
-          <a href="#" title="" target="_blank"><i class="ion-social-instagram-outline"></i></a>
-          <a href="#" title="" target="_blank"><i class="ion-social-facebook"></i></a>
+      </div>
+      <!-- Modal -->
+      <div class="modal fade" id="modal3" role="dialog">
+        <div class="modal-dialog">
+        
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">Barra Integral de Ingenieros en Ecología del Estado de Chihuahua A.C
+</h4>
+            </div>
+            <div class="modal-body">
+              <p>Ing. Rosario Montoya Rodríguez <br>
+                M.C Rafael Licón Rubio <br>
+                Dr. Luis Javier Rivas Castilla <br>
+                Ing. Leticia Lira Chávez
+                </p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+          
         </div>
-      <!-- /footer social -->
+      </div>
+      <!-- Modal -->
+      <div class="modal fade" id="modal2" role="dialog">
+        <div class="modal-dialog">
+        
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">CENTRO DE INVESTIGACIÓN DESARROLLO E  INNOVACIÓN EMPRESARIAL
+</h4>
+            </div>
+            <div class="modal-body">
+              <p>Dr. Alberto Valles  Aguirre <br>
+                Lic. Isidro Orozco González <br>
+                Lic. Rodrigo Trevizo Acosta <br>
+                Arq. Julio Espinoza Casas
+                </p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      <!-- Modal -->
+      <div class="modal fade" id="modal4" role="dialog">
+        <div class="modal-dialog">
+        
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">Consultores Especiales</h4>
+            </div>
+            <div class="modal-body">
+              <p>
+                Lic. Polina Porras Sivolobova <br>
+                Ing. Ekaterina Porras Sivolobova <br>
+                Ing. Philipp Rosenthal <br>
+                Lic. Pablo González Russek
+              </p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+          
+        </div>
+      </div>
 
+    <footer class="center" style="height:100px; background-color:rgb(30,30,30)">
+        <p style="color:rgb(200,200,200);"><br><br> Grupo Ba'Whichi, 2017</p>
     </footer>
-    <!-- /site footer -->
 
-    <!-- audio -->
-    <audio id="audio-player" loop>
-      <source src="assets/audio/audio.mp3" type="audio/mpeg">
-    </audio>
-    <!-- audio -->
-  </div>
-  <!-- /site wrap -->
+    <!-- JavaScript -->
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/script.js"></script>
+    <!-- StikyMenu -->
+    <script src="js/stickUp.min.js"></script>
+    <script type="text/javascript">
+        jQuery(function($) {
+            $(document).ready(function() {
+                $('.navbar-default').stickUp();
 
-  <!-- script -->
-  <script src='assets/js/vendor/jquery-2.1.4.min.js'></script>
-  <!--[if lte IE 9]><!-->
-  <script src='assets/js/vendor/html5shiv.min.js'></script>
-  <!--<![endif]-->
-  <script src='assets/js/vendor/bootstrap.min.js'></script>
-  <script src='assets/js/vendor/vendor.js'></script>
-  <script src='assets/js/variable.js'></script>
-  <script src='assets/js/main.js'></script>
-  <!-- /script -->
-
+            });
+        });
+    </script>
+    <!-- Smoothscroll -->
+    <script type="text/javascript" src="js/jquery.corner.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script src="js/classie.js"></script>
+    <script src="js/uiMorphingButton_inflow.js"></script>
+    <!-- Magnific Popup core JS file -->
+    <script src="js/jquery.magnific-popup.js"></script>
 </body>
+
 </html>
