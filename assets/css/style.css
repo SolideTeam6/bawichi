@@ -1268,3 +1268,22 @@ section {
 @viewport {
   width: device-width;
 }
+
+.social-icons{
+  color:#dcdcdc;
+  margin-right:20px;
+}
+.social-icons:hover{
+
+  color:white;
+}
+.logo-ba{
+  max-width: 350px;
+}
+
+@media (max-width: 600px) {
+
+  .logo-ba{
+    max-width: 200px;
+  }
+}
